@@ -1,6 +1,8 @@
 package com.beiing.animationdemo.fragment;
 
+import android.app.Activity;
 import android.app.ListFragment;
+import android.content.Context;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -20,8 +22,21 @@ public class SlidingListFragmentLeft extends ListFragment {
     }
 
     @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+        Log.e(TAG, "onAttach");
+    }
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        Log.e(TAG, "onCreate");
+    }
+
+    @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState) {
+        Log.e(TAG, "onCreateView");
         return inflater.inflate(R.layout.sliding_fragment_layout_left, container, false);
     }
 

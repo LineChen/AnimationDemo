@@ -16,4 +16,24 @@
        android:text="Fragment切换动画"
        android:onClick="Test1Activity"
        />
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="自定义Behavior"
+       android:onClick="TestBehavior"
+       />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="获取共享文件"
+    android:onClick="getShareFile"
+    />
+
+   <ImageView
+       android:id="@+id/iv_asset"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+
 </LinearLayout>

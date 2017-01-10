@@ -17,7 +17,7 @@ public class SlidingListFragmentRight extends ListFragment {
     String TAG = getClass().getSimpleName();
 
     public SlidingListFragmentRight(){
-        Log.e(TAG, "SlidingListFragmentRight--init");
+
     }
 
     @Override

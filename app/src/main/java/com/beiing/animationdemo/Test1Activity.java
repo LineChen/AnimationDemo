@@ -1,6 +1,5 @@
 package com.beiing.animationdemo;
 
-import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
@@ -15,6 +14,9 @@ import com.beiing.animationdemo.fragment.SlidingListFragmentLeft;
 import com.beiing.animationdemo.fragment.SlidingListFragmentRight;
 import com.beiing.animationdemo.support.FragmentTransactionExtended;
 
+/**
+ * 两个Fragment切换动画
+ */
 public class Test1Activity extends AppCompatActivity implements AdapterView.OnItemSelectedListener{
     private int optionSelected = 0;
     private SlidingListFragmentLeft mFirstFragment;
@@ -69,8 +71,7 @@ public class Test1Activity extends AppCompatActivity implements AdapterView.OnIt
     }
 
     @Override
-    public void onBackPressed()
-    {
+    public void onBackPressed() {
         Button button = (Button) findViewById(R.id.button);
         button.setText("Push");
         super.onBackPressed();
