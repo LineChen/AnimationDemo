@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--分解动画-->
+    <!--<explode xmlns:android="http://schemas.android.com/apk/res/android">-->
+        <!--<targets>-->
+            <!--<target android:excludeId="@android:id/statusBarBackground"/>-->
+            <!--<target android:excludeId="@android:id/navigationBarBackground"/>-->
+        <!--</targets>-->
+    <!--</explode>-->
+
+    <!--滑动动画-->
+    <slide
+        android:duration="300"
+        android:slideEdge="bottom" />
+
+    <!--&lt;!&ndash;淡入淡出动画&ndash;&gt;-->
+    <!--<fade android:duration="200"-->
+           <!--android:fadingMode="fade_in_out">-->
+        <!--<targets>-->
+            <!--<target android:excludeId="@android:id/statusBarBackground"/>-->
+            <!--<target android:excludeId="@android:id/navigationBarBackground"/>-->
+        <!--</targets>-->
+    <!--</fade>-->
+
+
+</transitionSet>
