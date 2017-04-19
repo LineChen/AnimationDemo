@@ -1,0 +1,34 @@
+<resources>
+
+    <style name="AppTheme.TransitionAppTheme">
+        <!-- 开启过渡效果 -->
+        <!--<item name="android:windowContentTransitions">true</item>-->
+
+        <!--&lt;!&ndash; 指定界面进入/退出动画效果 &ndash;&gt;-->
+        <!--<item name="android:windowEnterTransition">@transition/main_enter</item>-->
+        <!--<item name="android:windowExitTransition">@transition/main_exit</item>-->
+
+        <!--&lt;!&ndash; 指定共享元素进入/退出的动画效果 &ndash;&gt;-->
+        <!--<item name="android:windowSharedElementEnterTransition">-->
+        <!--@transition/change_image_transform</item>-->
+        <!--<item name="android:windowSharedElementExitTransition">-->
+        <!--@transition/change_image_transform</item>-->
+    </style>
+
+
+    <style name="AppTheme.Animation">
+        <!--窗体进入动画-->
+        <item name="android:windowEnterAnimation">@anim/rotate_up</item>
+        <!--窗体退出动画-->
+        <item name="android:windowExitAnimation">@anim/rotate_down</item>
+    </style>
+
+    <style name="AppTheme.Detail">
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">false</item>
+    </style>
+
+</resources>
