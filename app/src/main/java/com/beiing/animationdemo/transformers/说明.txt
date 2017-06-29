@@ -1,0 +1,9 @@
+ABaseTransformer.java是基本类
+
+其他动画类都是继承此类
+
+使用的时候直接
+
+第一个参数 true倒序 false 顺序
+第二个参数 动画类
+viewPager.setPageTransformer(true, new CubeOutTransformer());

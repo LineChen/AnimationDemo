@@ -25,4 +25,26 @@
         <item>右角落放大</item>
     </string-array>
 
+    <string-array name="viewpager_transforms">
+        <item>AccordionTransformer</item>
+        <item>BackgroundToForegroundTransformer</item>
+        <item>CubeInTransformer</item>
+        <item>CubeOutXTransformer</item>
+        <item>DefaultTransformer</item>
+        <item>DepthPageTransformer</item>
+        <item>FlipHorizontalTransformer</item>
+        <item>FlipVerticalTransformer</item>
+        <item>ForegroundToBackgroundTransformer</item>
+        <item>RotateDownTransformer</item>
+        <item>RotateUpTransformer</item>
+        <item>ScaleInOutTransformer</item>
+        <item>StackTransformer</item>
+        <item>TabletTransformer</item>
+        <item>ZoomInTransformer</item>
+        <item>ZoomOutSlideTransformer</item>
+        <item>ZoomOutTranformer</item>
+        <item>CubeOutYTransformer</item>
+        <item>TranslateYUpTransformer</item>
+    </string-array>
+
 </resources>

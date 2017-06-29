@@ -5,8 +5,8 @@ import android.content.ContentResolver;
 import android.content.Intent;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.util.Pair;
 import android.view.View;
@@ -16,12 +16,7 @@ import android.widget.ImageView;
 import com.beiing.animationdemo.transitions.AnimationActivity;
 import com.beiing.animationdemo.transitions.ImageListActivity;
 import com.beiing.animationdemo.transitions.TransitionActivity;
-
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.InputStream;
-
-import static android.support.v4.util.Pair.create;
+import com.beiing.animationdemo.vipager_transformer.ViewpagerActivity;
 
 /**
  * 可以测试使用contentprovider获取另一个应用中assets文件夹下的图片
@@ -86,5 +81,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void imageList(View view) {
         startActivity(new Intent(this, ImageListActivity.class));
+    }
+
+    public void viewpagerActivity(View view) {
+        startActivity(new Intent(this, ViewpagerActivity.class));
     }
 }
