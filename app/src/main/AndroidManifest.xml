@@ -39,7 +39,8 @@
         <activity
             android:name=".transitions.ImageDetailActivity"
             android:theme="@style/AppTheme.Detail" />
-        <activity android:name=".vipager_transformer.ViewpagerActivity"></activity>
+        <activity android:name=".vipager_transformer.ViewpagerActivity" />
+        <activity android:name=".valueanimator.AnimatorMainActivity"></activity>
     </application>
 
 </manifest>

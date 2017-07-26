@@ -16,6 +16,7 @@ import android.widget.ImageView;
 import com.beiing.animationdemo.transitions.AnimationActivity;
 import com.beiing.animationdemo.transitions.ImageListActivity;
 import com.beiing.animationdemo.transitions.TransitionActivity;
+import com.beiing.animationdemo.valueanimator.AnimatorMainActivity;
 import com.beiing.animationdemo.vipager_transformer.ViewpagerActivity;
 
 /**
@@ -85,5 +86,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void viewpagerActivity(View view) {
         startActivity(new Intent(this, ViewpagerActivity.class));
+    }
+
+    public void AnimatorActivity(View view) {
+        startActivity(new Intent(this, AnimatorMainActivity.class));
     }
 }
